@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:#D14836;
+    font-family: Arial;
+    margin: auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    background: #ECD06F;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    background:#ECD06F;
+    width: 70%;
+}
