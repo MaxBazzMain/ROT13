@@ -20,14 +20,32 @@
     <div class="container">
       <h1>ROT13</h1>
 
-      <!-- Поле ввода -->
-      <input type="text" id="inputText" placeholder="Введите текст">
+      <div class="text-container">
+
+        <div class="input-text">
+          <!-- Поле ввода -->
+          
+          <!-- <input class="input" type="text" id="inputText" placeholder="Введите текст" autofocus required> -->
+          
+          <label for="story">Введите текст для преобразования:</label>
+
+          <textarea class="input" id="inputText" rows="50" cols="200" placeholder="Введите текст" autofocus required>
+          </textarea>
+          
+          
+          
+          
+          <!-- Кнопка для преобразования -->
+          <button class="input" onclick="convert()">Преобразовать</button>
+        </div>
+
+        
+        
+        <!-- Блок для вывода результата -->
+        <div class="input" id="output" style="margin-top: 20px; font-size: 18px;"></div>
+
+      </div>
       
-      <!-- Кнопка для преобразования -->
-      <button onclick="convert()">Преобразовать</button>
-      
-      <!-- Блок для вывода результата -->
-      <div id="output" style="margin-top: 20px; font-size: 18px;"></div>
 
     </div>
        
