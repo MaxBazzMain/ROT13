@@ -23,12 +23,20 @@ body {
 .text-container {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 .input-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
+    width:50%;
+    flex: none;
+}
+
+label {
+  padding: 3%;
 }
 
 .input {
@@ -50,16 +58,50 @@ body {
     background-color: white;
   }
 
-  #output {
+  button {
+    margin: 2%;
+    padding: 2%;
+    width: auto;
+    height: 5%;
     border: 2px solid transparent;
-    width: 50%;
-    height: 50%;
-    padding-left: 0.8em;
     outline: none;
     overflow: hidden;
     background-color: #F3F3F3;
     border-radius: 10px;
     transition: all 0.5s;
+
+  }
+
+  button:hover,
+  button:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
+
+  .output-block {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    width:50%;
+    flex: none;
+  }
+
+
+
+  #output {
+    border: 2px solid transparent;
+    width: 50%;
+    /* height: 50%; */
+    padding: 1%;
+    /* outline: none; */
+    /* overflow: hidden; */
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    word-break: break-all;
+    overflow-y: visible;   
   }
 
 
