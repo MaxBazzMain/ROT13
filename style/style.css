@@ -60,7 +60,7 @@ label {
 
   button {
     margin: 2%;
-    padding: 2%;
+    padding: auto;
     width: auto;
     height: 5%;
     border: 2px solid transparent;
@@ -69,6 +69,7 @@ label {
     background-color: #F3F3F3;
     border-radius: 10px;
     transition: all 0.5s;
+    
 
   }
 
@@ -101,7 +102,8 @@ label {
     border-radius: 10px;
     transition: all 0.5s;
     word-break: break-all;
-    overflow-y: visible;   
+    overflow-y: visible; 
+    white-space: pre-wrap; 
   }
 
 

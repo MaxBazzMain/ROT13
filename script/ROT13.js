@@ -33,3 +33,10 @@ function rot13(str) {
     }
   return result;
   }
+
+
+
+  function clearTextarea() {
+    document.getElementById('inputText').value = '';
+    document.getElementById('output').textContent = '';
+  }
